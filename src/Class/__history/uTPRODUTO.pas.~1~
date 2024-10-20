@@ -1,0 +1,115 @@
+unit uTPRODUTO;
+
+interface
+
+type
+
+  TPRODUTO = class
+    constructor Create; overload;
+    destructor Destroy; override;
+  private
+    FID_PRODUTO: Integer;
+    FCOD_PRODUTO: String;
+    FNOM_PRODUTO: String;
+    FVAL_PRECO_VENDA: Double;
+  private
+    function GetCOD_PRODUTO: String;
+    procedure SetCOD_PRODUTO(NewVal: VARCHAR);
+    function GetID_PRODUTO: Integer;
+    procedure SetID_PRODUTO(NewVal: BIGINT);
+    function GetNOM_PRODUTO: String;
+    procedure SetNOM_PRODUTO(NewVal: VARCHAR);
+    function GetVAL_PRECO_VENDA: Double;
+    procedure SetVAL_PRECO_VENDA(NewVal: REAL);
+    procedure SetID_PRODUTO(NewVal: Integer);
+    procedure SetCOD_PRODUTO(NewVal: String);
+    procedure SetNOM_PRODUTO(NewVal: String);
+    procedure SetVAL_PRECO_VENDA(NewVal: Double);
+  published
+    property NOM_PRODUTO:String read GetNOM_PRODUTO write SetNOM_PRODUTO;
+    property ID_PRODUTO:Integer read GetID_PRODUTO write SetID_PRODUTO;
+    property COD_PRODUTO:String read GetCOD_PRODUTO write SetCOD_PRODUTO;
+    property VAL_PRECO_VENDA:Double read GetVAL_PRECO_VENDA write SetVAL_PRECO_VENDA; 
+  end;
+
+implementation
+
+
+
+{implementation of TPRODUTO}
+
+constructor TPRODUTO.Create;
+begin
+  inherited Create;
+end;
+
+destructor TPRODUTO.Destroy;
+begin
+  inherited Destroy;
+end;
+
+function TPRODUTO.GetCOD_PRODUTO: String;
+begin
+  result := COD_PRODUTO;
+end;
+
+procedure TPRODUTO.SetCOD_PRODUTO(NewVal: VARCHAR);
+begin
+  COD_PRODUTO := NewVal;
+end;
+
+function TPRODUTO.GetID_PRODUTO: Integer;
+begin
+  result := ID_PRODUTO;
+end;
+
+procedure TPRODUTO.SetID_PRODUTO(NewVal: BIGINT);
+begin
+  ID_PRODUTO := NewVal;
+end;
+
+function TPRODUTO.GetNOM_PRODUTO: String;
+begin
+  result := NOM_PRODUTO;
+end;
+
+procedure TPRODUTO.SetNOM_PRODUTO(NewVal: VARCHAR);
+begin
+  NOM_PRODUTO := NewVal;
+end;
+
+function TPRODUTO.GetVAL_PRECO_VENDA: Double;
+begin
+  result := VAL_PRECO_VENDA;
+end;
+
+procedure TPRODUTO.SetVAL_PRECO_VENDA(NewVal: REAL);
+begin
+
+  VAL_PRECO_VENDA := NewVal;
+end;
+
+procedure TPRODUTO.SetID_PRODUTO(NewVal: Integer);
+begin
+
+  FID_PRODUTO := NewVal;
+end;
+
+procedure TPRODUTO.SetCOD_PRODUTO(NewVal: String);
+begin
+
+  COD_PRODUTO := NewVal;
+end;
+
+procedure TPRODUTO.SetNOM_PRODUTO(NewVal: String);
+begin
+
+  NOM_PRODUTO := NewVal;
+end;
+
+procedure TPRODUTO.SetVAL_PRECO_VENDA(NewVal: Double);
+begin
+
+  VAL_PRECO_VENDA := NewVal;
+end;
+end.

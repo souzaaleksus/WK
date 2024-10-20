@@ -1,0 +1,22 @@
+program WK;
+
+uses
+  Vcl.Forms,
+  Main in 'Main.pas' {FormMain},
+  DataService_Impl in 'DataService_Impl.pas' {DataService: TDataModule},
+  OrderList in 'OrderList.pas' {FormOrderList},
+  uTCLIENTE in 'Class\uTCLIENTE.pas',
+  uTPEDIDO_VENDA in 'Class\uTPEDIDO_VENDA.pas',
+  uTPEDIDO_VENDA_ITEM in 'Class\uTPEDIDO_VENDA_ITEM.pas',
+  uTPRODUTO in 'Class\uTPRODUTO.pas';
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TDataService, DataService);
+  Application.CreateForm(TFormMain, FormMain);
+  Application.Run;
+
+end.

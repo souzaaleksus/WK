@@ -1,0 +1,70 @@
+unit UnitPedidoVenda;
+
+interface
+
+uses
+  UnitCliente;
+
+type
+  TPedidoVenda = class( TObject )
+    constructor Create; overload;
+    destructor Destroy; override;
+    private
+      FID : Integer;
+      FValorTotal : Double;
+      FDataEmissao : TDateTime;
+      FCliente : TCliente;
+      procedure SetID( const Value : Integer );
+      procedure SetDataEmissao( const Value : TDateTime );
+      procedure SetValorTotal( const Value : Double );
+      procedure SetCliente( const Value : TCliente );
+    published
+      property ID : Integer
+        read FID
+        write SetID;
+      property DataEmissao : TDateTime
+        read FDataEmissao
+        write SetDataEmissao;
+      property ValorTotal : Double
+        read FValorTotal
+        write SetValorTotal;
+      property Cliente : TCliente
+        read FCliente
+        write SetCliente;
+  end;
+
+implementation
+
+{ TPedidoVenda }
+
+constructor TPedidoVenda.Create;
+  begin
+    inherited Create;
+  end;
+
+destructor TPedidoVenda.Destroy;
+  begin
+    inherited Destroy;
+  end;
+
+procedure TPedidoVenda.SetCliente( const Value : TCliente );
+  begin
+    FCliente := Value;
+  end;
+
+procedure TPedidoVenda.SetDataEmissao( const Value : TDateTime );
+  begin
+    FDataEmissao := Value;
+  end;
+
+procedure TPedidoVenda.SetID( const Value : Integer );
+  begin
+    FID := Value;
+  end;
+
+procedure TPedidoVenda.SetValorTotal( const Value : Double );
+  begin
+    FValorTotal := Value;
+  end;
+
+end.

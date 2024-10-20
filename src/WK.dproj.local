@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2024/10/19 10:53:11.000.484,=F:\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2024/10/19 10:53:22.000.264,C:\WK\src\Main.pas=F:\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2024/10/19 10:53:22.000.264,C:\WK\src\Main.dfm=F:\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit2.dfm</Transaction>
+    <Transaction>2024/10/19 10:53:28.000.428,C:\WK\src\WK.dproj=F:\OneDrive\Documentos\Embarcadero\Studio\Projects\Project2.dproj</Transaction>
+    <Transaction>2024/10/19 11:06:04.000.776,=C:\WK\src\Unit1.pas</Transaction>
+    <Transaction>2024/10/19 11:06:18.000.166,C:\WK\src\DataService_Impl.pas=C:\WK\src\Unit1.pas</Transaction>
+    <Transaction>2024/10/19 11:06:18.000.166,C:\WK\src\DataService_Impl.dfm=C:\WK\src\Unit1.dfm</Transaction>
+    <Transaction>2024/10/19 19:07:31.000.775,=C:\WK\src\Unit1.pas</Transaction>
+    <Transaction>2024/10/19 19:07:47.000.901,C:\WK\src\OrderList.dfm=C:\WK\src\Unit1.dfm</Transaction>
+    <Transaction>2024/10/19 19:07:47.000.901,C:\WK\src\OrderList.pas=C:\WK\src\Unit1.pas</Transaction>
+    <Transaction>2024/10/20 12:11:38.000.665,=C:\WK\src\Class\uTCLIENTE.pas</Transaction>
+    <Transaction>2024/10/20 12:11:41.000.489,=C:\WK\src\Class\uTPEDIDO_VENDA_ITEM.pas</Transaction>
+    <Transaction>2024/10/20 12:11:41.000.472,=C:\WK\src\Class\uTPEDIDO_VENDA.pas</Transaction>
+    <Transaction>2024/10/20 12:11:41.000.489,=C:\WK\src\Class\uTPRODUTO.pas</Transaction>
+    <Transaction>2024/10/20 12:24:49.963,C:\WK\src\Class\uTCLIENTE.pas=</Transaction>
+    <Transaction>2024/10/20 12:24:49.995,C:\WK\src\Class\uTPEDIDO_VENDA.pas=</Transaction>
+    <Transaction>2024/10/20 12:24:50.010,C:\WK\src\Class\uTPEDIDO_VENDA_ITEM.pas=</Transaction>
+    <Transaction>2024/10/20 12:24:50.169,C:\WK\src\Class\uTPRODUTO.pas=</Transaction>
+    <Transaction>2024/10/20 12:26:37.493,=C:\WK\src\Class\UnitCliente.pas</Transaction>
+    <Transaction>2024/10/20 12:32:01.568,=C:\WK\src\Class\UnitProduto.pas</Transaction>
+    <Transaction>2024/10/20 12:37:08.467,=C:\WK\src\Class\UnitPedidoVenda.pas</Transaction>
+    <Transaction>2024/10/20 12:44:23.662,=C:\WK\src\Class\UnitPedidoVendaItem.pas</Transaction>
+    <Transaction>2024/10/20 12:55:45.486,C:\WK\src\Class\UnitCliente.pas=</Transaction>
+    <Transaction>2024/10/20 12:55:45.564,C:\WK\src\Class\UnitPedidoVenda.pas=</Transaction>
+    <Transaction>2024/10/20 12:55:45.596,C:\WK\src\Class\UnitPedidoVendaItem.pas=</Transaction>
+    <Transaction>2024/10/20 12:55:45.738,C:\WK\src\Class\UnitProduto.pas=</Transaction>
+  </Transactions>
+</BorlandProject>

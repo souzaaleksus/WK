@@ -1,0 +1,25 @@
+unit UnitPedidoVendaItem;
+
+interface
+
+type
+  TPedidoVendaItem = class
+    constructor Create; overload;
+    destructor Destroy; override;
+  end;
+
+implementation
+
+{TPedidoVendaItem}
+
+constructor TPedidoVendaItem.Create;
+begin
+  inherited Create;
+end;
+
+destructor TPedidoVendaItem.Destroy;
+begin
+  inherited Destroy;
+end;
+
+end.

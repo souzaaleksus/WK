@@ -1,0 +1,43 @@
+unit UnitCliente;
+
+interface
+
+type
+
+  TCliente = class
+    constructor Create; overload;
+    destructor Destroy; override;
+  private
+    FIDCliente: Integer;
+  public
+    function GetIDCliente: Integer;
+    procedure SetIDCliente(NewVal: Integer);
+  published
+    property IDCliente:Integer read GetIDCliente write SetIDCliente;
+  end;
+
+implementation
+
+{implementation of TCliente}
+
+constructor TCliente.Create;
+begin
+  inherited Create;
+end;
+
+destructor TCliente.Destroy;
+begin
+  inherited Destroy;
+end;
+
+function TCliente.GetIDCliente: Integer;
+begin
+  result := IDCliente;
+end;
+
+procedure TCliente.SetIDCliente(NewVal: Integer);
+begin
+
+  IDCliente := NewVal;
+end;
+end.
